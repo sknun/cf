@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jianka/cf/cast"
+	"github.com/sknun/cf/cast"
 )
 
 // http请求函数

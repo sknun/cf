@@ -1,3 +1,3 @@
-module github.com/jianka/cf
+module github.com/sknun/cf
 
 go 1.19

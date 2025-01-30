@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jianka/cf/cast"
+	"github.com/sknun/cf/cast"
 )
 
 // 字符串转html语言

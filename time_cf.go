@@ -5,7 +5,7 @@ package cf
 import (
 	"time"
 
-	"github.com/jianka/cf/cast"
+	"github.com/sknun/cf/cast"
 )
 
 // 时间戳转日期

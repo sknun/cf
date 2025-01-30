@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jianka/cf/cast"
+	"github.com/sknun/cf/cast"
 )
 
 // 去除字符串最后一位字符

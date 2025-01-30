@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/jianka/cf/cast"
+	"github.com/sknun/cf/cast"
 )
 
 // 读取文件 返回string
