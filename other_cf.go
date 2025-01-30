@@ -215,6 +215,11 @@ func fetchIP(url string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-
-	return string(ip), nil
+	var result []rune
+	for _, r := range string(ip) {
+		if (r >= '0' && r <= '9') || r == '.' {
+			result = append(result, r)
+		}
+	}
+	return string(result), nil
 }
